@@ -12,7 +12,7 @@ endif
 	$(CXX) -std=c++0x -c -o $@ $< $(YOCTOCXXFLAGS)
 
 simpleclient: simpleclient.o
-	$(CXX) -o simpleclient simpleclient.o $(YOCTOLDFLAGS)
+	$(CXX) -o $@ $^ $(LDFLAGS) $(YOCTOLDFLAGS)
 
 clean:
 	rm -rf simpleclient *.o
