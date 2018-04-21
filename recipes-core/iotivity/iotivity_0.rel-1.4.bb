@@ -7,7 +7,7 @@ DEPENDS += "sqlite3"
 EXTRANATIVEPATH += "chrpath-native"
 SECTION = "libs"
 LICENSE = "Apache-2.0"
-LIC_FILES_CHKSUM = "file://LICENSE.md;md5=22bf216f3077c279aed7b36b1fa9e6d1"
+LIC_FILES_CHKSUM = "file://LICENSE.md;md5=86d3f3a95c324c9479bd8986968f4327"
 
 branch_iotivity ?= "1.4-rel"
 baseurl_iotivity ?= "git://github.com/iotivity/iotivity.git"
